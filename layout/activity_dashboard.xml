@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/dashboardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#6200EE"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/travel5"
+        android:scaleType="centerCrop"
+        android:contentDescription="Background Image" />
+
+    <!-- Button Container -->
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <!-- To-Do List Button -->
+        <Button
+            android:id="@+id/toDoListButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="To-Do List"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6200EE"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Restaurants Button -->
+        <Button
+            android:id="@+id/restaurantsButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Restaurants"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6200EE"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Transportation Button -->
+        <Button
+            android:id="@+id/transportationButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Transportation"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6200EE"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Reviews Button -->
+        <Button
+            android:id="@+id/reviewsButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Reviews"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6200EE" />
+    </LinearLayout>
+</RelativeLayout>
